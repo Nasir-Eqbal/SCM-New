@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SCM.RuleEngine.Core\SCM.RuleEngine.Core.csproj" />
+    <ProjectReference Include="..\SCM.Service.Abstraction\SCM.Service.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
