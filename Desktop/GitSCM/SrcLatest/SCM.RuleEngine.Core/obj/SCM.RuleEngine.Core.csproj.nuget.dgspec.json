@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Core\\SCM.RuleEngine.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Core\\SCM.RuleEngine.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Core\\SCM.RuleEngine.Core.csproj",
+        "projectName": "SCM.RuleEngine.Core",
+        "projectPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Core\\SCM.RuleEngine.Core.csproj",
+        "packagesPath": "C:\\Users\\DT226039\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DT226039\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.build.ifdsfs.com/nexus/service/local/nuget/nuget/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\SCM.RuleEngine.Domain.csproj": {
+                "projectPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\SCM.RuleEngine.Domain.csproj"
+              },
+              "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.Service.Abstraction\\SCM.Service.Abstraction.csproj": {
+                "projectPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.Service.Abstraction\\SCM.Service.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\SCM.RuleEngine.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\SCM.RuleEngine.Domain.csproj",
+        "projectName": "SCM.RuleEngine.Domain",
+        "projectPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\SCM.RuleEngine.Domain.csproj",
+        "packagesPath": "C:\\Users\\DT226039\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DT226039\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.build.ifdsfs.com/nexus/service/local/nuget/nuget/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.Service.Abstraction\\SCM.Service.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.Service.Abstraction\\SCM.Service.Abstraction.csproj",
+        "projectName": "SCM.Service.Abstraction",
+        "projectPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.Service.Abstraction\\SCM.Service.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\DT226039\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.Service.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DT226039\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.build.ifdsfs.com/nexus/service/local/nuget/nuget/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\SCM.RuleEngine.Domain.csproj": {
+                "projectPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\SCM.RuleEngine.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SCM.RuleEngine.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SCM.RuleEngine.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCM.RuleEngine.Domain.dll": {}
+        }
+      },
+      "SCM.Service.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SCM.RuleEngine.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SCM.Service.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SCM.Service.Abstraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SCM.RuleEngine.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SCM.RuleEngine.Domain/SCM.RuleEngine.Domain.csproj",
+      "msbuildProject": "../SCM.RuleEngine.Domain/SCM.RuleEngine.Domain.csproj"
+    },
+    "SCM.Service.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../SCM.Service.Abstraction/SCM.Service.Abstraction.csproj",
+      "msbuildProject": "../SCM.Service.Abstraction/SCM.Service.Abstraction.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "SCM.RuleEngine.Domain >= 1.0.0",
+      "SCM.Service.Abstraction >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DT226039\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Core\\SCM.RuleEngine.Core.csproj",
+      "projectName": "SCM.RuleEngine.Core",
+      "projectPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Core\\SCM.RuleEngine.Core.csproj",
+      "packagesPath": "C:\\Users\\DT226039\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DT226039\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nexus.build.ifdsfs.com/nexus/service/local/nuget/nuget/": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\SCM.RuleEngine.Domain.csproj": {
+              "projectPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.RuleEngine.Domain\\SCM.RuleEngine.Domain.csproj"
+            },
+            "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.Service.Abstraction\\SCM.Service.Abstraction.csproj": {
+              "projectPath": "C:\\Users\\DT226039\\Desktop\\Marsek\\SRC\\SCM.Service.Abstraction\\SCM.Service.Abstraction.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
